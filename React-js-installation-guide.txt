@@ -1,0 +1,41 @@
+| ***** React js version-19 installation guide step by step ***** |
+
+step-1:
+open this ( link https://vite.dev/guide/ ) this is the official react-js with vite website.
+
+step-2:
+open cmd and paste this 
+( npm create vite@latest myfolder )
+
+1. cmd is command prompt
+2. npm is the node package manager
+3. create means start process
+4. vite@latest means vite ka latest version install karo
+5. myfolder means idhar folder ka naam aiga or folder is name sa create hojaiga
+
+now you select react-js and your language javacript or typescript
+
+step-3:
+close this cmd and open myfolder there is many files of react-js.
+Now open cmd in this folder and run ( npm install ) kionka node_modules ka folder nhi hota hai 
+islia cmd ma is command sa node_modules ka folder install hojaiga jo package.json ki files ma devDependencies ma packages likha 
+hoa hota hain us hisaab sa node_modules ka folder create kardata hai.
+
+step-4:
+now the react-js is installed in your folder, then you run this command ( npm run dev )
+and your website is live on this link is given in cmd.
+
+Now review of all steps.
+
+step-1:
+link https://vite.dev/guide/
+
+step-2:
+npm create vite@latest myfolder
+
+step-3:
+npm install 
+
+step-4:
+npm run dev
+

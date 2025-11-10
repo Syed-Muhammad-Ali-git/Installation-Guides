@@ -1,0 +1,44 @@
+| ***** Tailwind CSS version-4 installation guide step by step with Cli ***** |
+
+Step 1: 
+index.html ki file create kar ka terminal open kar ka( npm init -y ) likh kar enter karo 1 object ajaiga terminal ma.
+
+Step 2:
+ phir ya ( npm install tailwindcss @tailwindcss/cli ) command terminal ma likh kar enter karo package-lock.json ki file or node_modules ka folder ajaiga.
+
+Step 3:
+ 1 folder banana hai src ka name sa or us ma 1 input.css ki file banani hai or us ma ya paste karna hai ( @import "tailwindcss"; ).
+
+Step 4:
+ Terminal ma ya line paste karna hai is sa wo aapki input file check karaga or auto output file create kar daiga jis ma tailwind css ka code hoga, or --watch sa 
+ updated code save karta rahaga.
+ (   npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch  )
+
+Step 5:
+ index.html ki file ma output.css ki file ko link karna hai ( <link href="./src/output.css" rel="stylesheet" /> )
+
+Step 6:
+ ( <h1 class="text-3xl font-bold underline bg-red-800">Hello world!</h1> ) ya code paste karna hai is ka baad live server sa browser par open kar ka check karna hai
+ ka ya code run horaha hai ya nhi.
+
+Step 7:
+ ab apna code start kardain Tailwind CSS install hogai hai. last cheez ya hamasha note karna hai ka terminal ma ( done in 1ms ) is Tarah ki koi line likhi arah hai 
+ na ya code ko update kar rahi hai jo browser par show horaha hai agar ya is Tarah ki line nhi show horahi to ya watch wali pori command chalain terminal par 
+ (   npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch  )
+
+Step 8:
+ --watch wali command ko short karna ka lia ( package.json ) wali file open karka us ma ya line likhi ho hogi jo nicha hai is ko update kar ka us ka nich wali line likhni hai,
+
+default :
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+updated:
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+
+is ma build wali line add karni hai ab --watch wali pori line nhi likhni balka simply ( npm run build ) likhna hai is sa bhi yahi command run hogi.
+

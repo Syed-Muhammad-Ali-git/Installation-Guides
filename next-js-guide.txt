@@ -1,0 +1,76 @@
+Next Js using guide:
+
+
+1st install Next js latest version project using this command ( npx create-next-app-latest ).
+
+Now you can use it default so choose default option in terminal when it comes after running the command.
+
+
+What is in Default Option?
+
+In Default Next js install Typescript, Tailwind css, Es lint, app Folder directory and its latest versions, 
+
+and also install node modules, react, react router.
+
+
+Note:
+
+All things in Next js like a Advanced version of React js, So if you want to learn Next js first you learn React js.
+
+
+Advanced Features of Next js:
+
+1. In Next js we use page.tsx file name to auto render in Dom. Using page.tsx name Only those files who will render on screen.
+   This is called File base routing.
+
+2. in Next we use Link from Next/Link for linked 1 page to another pages link in Html we use anchor (a) tag for linked pages.
+
+3. For Not found page we make ( not-found.tsx ) inside app folder on layout.tsx directory, it can auto connected with project pages.
+
+4. If we want to made error page for show on error then we can make it ( error.tsx ) in same directory of notfound page.
+
+5. If we show a loader in any screen we make loader.tsx in the screen folder where page.tsx file like, 
+
+
+app (folder)
+  |
+  |--users (folder)
+         |
+         |--page.tsx  ( /user screen on dom)
+         |--loader.tsx ( loader for screen if we need we use it )
+
+
+
+6. If we want to make page inside page show in dom and its url like ( localhost:3000/profile/avator ).
+   so we make page folder inside page folder like,
+
+
+app (folder)
+  |
+  |--profile (folder)
+         |
+         |--page.tsx  ( /profile screen on dom)
+         |
+         |--[avator] (folder)
+                 |
+                 |--page.tsx ( /profile/avator )
+
+
+7. Next js is a case sensitive so the name of files and folders you write Becareful like,
+   we wrote the file name [avator] beacause this is the nested folder of file 
+   show in url ( localhost:3000/profile/avator ).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
