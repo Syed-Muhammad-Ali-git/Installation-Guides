@@ -1,0 +1,77 @@
+Note: React Native installation guide.
+
+Q: How to run the 1st react-native project?
+
+----------------------------------------------------------------------------------------------------------------------------
+
+Requirements for React Native:
+
+React Native JavaScript me kaam karta hai, isliye Node.js installed hona chahiye.
+
+Nodejs: Node install karna hai.
+verify-command: node -v
+
+Npm: Node ka sath automatically install hota hai.
+verify-command: npm-v
+
+JDK: java development kit
+Android apps build karne ke liye JDK zaruri hai. 
+command for jdk installation: choco install microsoft-openjdk17
+is command ma choco jo hai wo bhi node ka sath download hota hai.
+
+verify command for choco: choco -v
+verify command jdk: java -v
+
+react-native official link latest version: https://reactnative.dev/docs/set-up-your-environment
+
+react-native version 0.80 link: https://microsoft.github.io/react-native-windows/docs/getting-started
+
+Now download android studio for sdk link: https://developer.android.com/studio?authuser=1
+how to download and setup android sdk in this video link: https://www.youtube.com/watch?v=oorfevovPWw
+
+ab variable environment set karna hai is youtube video ko daikh kar is video ma aap process pora daikh sakta hain likin ya porana taika hai par variable aisa hi save hota hain. is video sa aapko variable environment set karna samajh ajaiga or baki chizain aap react native ki official website ki documentation sa kar sakta hain.
+
+youtube video link: https://www.youtube.com/watch?v=oorfevovPWw
+
+IDE for working: VS Code (visual studio code) download link: https://code.visualstudio.com/docs/setup/windows
+
+VS Code extensions for react native:
+
+React Native Tools
+Prettier
+ES7+ React/Redux/React-Native snippets
+
+if you install react native cli in past first uninstall it command: npm uninstall -g react-native-cli
+
+your installation done for react native....
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+Now you make a 1st project of react native with cli official command:
+npx @react-native-community/cli init MyProject
+
+ya command automatically aapka react-native project create karagi react-vite or next js ki Tarah 
+
+ab android studio open karo us ma more actions par jakar virtual device manager par jakar pixel 4 select karka install kar ka finish kar do.
+
+ab MyProject ka folder ma jakar right click kar ka open with vs code karo or terminal open kar ka,
+npx react-native run-android
+ya command chalao to mobile view ajaiga tumhara paas us application ka jo abhi bani hai react-native ki.
+npm run web
+or is command sa browser par open hojaiga.
+
+
+Congratulations...! your first react native project is created and working now.
+
+
+
+
+
+
+
+
+
+
+
+
+
